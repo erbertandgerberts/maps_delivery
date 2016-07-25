@@ -3,7 +3,13 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "stroke": "#ab27a9",
+        "stroke-width": 2,
+        "stroke-opacity": 1,
+        "fill": "#ab27a9",
+        "fill-opacity": 0.2
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
