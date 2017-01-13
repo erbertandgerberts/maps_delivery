@@ -12,12 +12,14 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 
 #### Method 1: Open/Save
 - In GeoJson.io goto 'Open > GitHub > erbertandgerberts > mapsdelivery > master' and click the desired map.
+
 #### Method 2: Copy/Paste
 - Goto GitHub.com and signin
 - Goto 'erbertandgerberts > mapsdelivery' and click on the desired map file.
 - With the map open and visible, click the 'Raw' button. This will display the Json code. Select All and copy.
 - Go back to GeoJson.io and in the right sidebar 'select all' and paste.
 - The map will now show up, ready to edit.
+
 ### Displaying MULTIPLE Maps Simultaneously from GitHub
 #### Method 1: Copy/Paste
 - The only way known to do this so far is the 'copy/paste' method.
@@ -26,9 +28,11 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 - Goto 'erbertandgerberts > mapsdelivery' and click on a DIFFERENT desired map file.
 - With the map open and visible, click the 'Raw' button. This will display the Json code.
 - Select All EXCEPT for the lines below and copy.
+
     {
       "type": "FeatureCollection",
       "features": [
+
 - Go back to GeoJson.io and in the right sidebar scroll to the bottom of the existing map code.
 - Replace the following code...
         }
