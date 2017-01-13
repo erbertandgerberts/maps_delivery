@@ -15,8 +15,8 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 
 #### Method 2: Copy/Paste
 - Goto GitHub.com and signin
-- Goto 'erbertandgerberts > mapsdelivery' and click on the desired map file.
-- With the map open and visible, click the 'Raw' button. This will display the Json code. Select All and copy.
+- SELECT: Goto 'erbertandgerberts > mapsdelivery' and click on the desired map file.
+- COPY: With the map open and visible, click the 'Raw' button. This will display the Json code. Select All and copy.
 - Go back to GeoJson.io and in the right sidebar 'select all' and paste.
 - The map will now show up, ready to edit.
 
@@ -25,9 +25,9 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 - The only way known to do this so far is the 'copy/paste' method.
 - Follow the 'Method 2: Copy/Paste' instructions above.
 - Then...
-- Goto 'erbertandgerberts > mapsdelivery' and click on a DIFFERENT desired map file.
+- SELECT: Goto 'erbertandgerberts > mapsdelivery' and click on a DIFFERENT desired map file.
 - With the map open and visible, click the 'Raw' button. This will display the Json code.
-- Select All EXCEPT for the lines below and copy.
+- COPY: Select All EXCEPT for the lines below and copy.
 ```
 {
   "type": "FeatureCollection",
@@ -45,6 +45,7 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
     },
 ```
 - This should tell GeoJson that there are more than one 'feature' (area) on the map and should display all of them.
+- Finally, paste the Json code AFTER the '},'.
 - CONTINUE for as many maps as you need.
 
 # END of README
