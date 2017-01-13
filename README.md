@@ -9,6 +9,7 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 ### Displaying Maps from GitHub
 - Goto GeoJson.io and signin with your GitHub account (if you aren't already signed in).
 - - You can tell if you're signed in because the upper right corner will show '[your username] | logout'.
+
 #### Method 1: Open/Save
 - In GeoJson.io goto 'Open > GitHub > erbertandgerberts > mapsdelivery > master' and click the desired map.
 #### Method 2: Copy/Paste
