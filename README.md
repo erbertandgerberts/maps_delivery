@@ -48,4 +48,34 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 - PASTE: Finally, paste the Json code AFTER the '},' code that you had replaced above.
 - CONTINUE for as many maps as you need.
 
+### Converting Linstring to Polygon
+- There are three main things to change to convert a 'Linestring' map to a 'Polygon' map.
+- 1: CHANGE 'Linestring' to 'Polygon' in the code below...
+```
+},
+      "geometry": {
+        "type": "Linestring", // <- Change this to 'Polygon'.
+        "coordinates": [
+```
+- 2: ADD an extra '[' and ']' at the beginning and end of the 'geometry' code lines.
+- There should be 2 at the beginning...
+```
+},
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+        [
+```
+- And 3 at the end...
+```
+[
+              -91.48036479949951,
+              44.80997420019494
+            ]
+          ]
+        ]
+```
+- 3: VERIFY that the end coordinates are EXACTLY the same as the beginning coordinates by copy/paste the beginning coordiantes.
+- That's it. If all three steps were completed correctly, the 'Linestring' should now display as a filled Polygon in GeoJson.
+
 # END of README
