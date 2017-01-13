@@ -5,3 +5,7 @@ Information about creating and editing digital delivery maps for E&G stores.
 Map .geojson files can only be renamed in GitHub by editing them. To do this 'something/anything' has to change in the code or in the filename.
 ### Map Description
 This is actually the 'commit changes' note. This can ONLY be changed when editing the code and 'something/anything' changes.
+## GeoJson.io
+### Displaying Maps from GitHub
+- Goto GeoJson.io and signin with your GitHub account (if you aren't already signed in).
+- - You can tell if you're signed in because the upper right corner will show '[your username] | logout'.
