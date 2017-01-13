@@ -45,7 +45,7 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
     },
 ```
 - This should tell GeoJson that there are more than one 'feature' (area) on the map and should display all of them.
-- Finally, paste the Json code AFTER the '},'.
+- PASTE: Finally, paste the Json code AFTER the '},' code that you had replaced above.
 - CONTINUE for as many maps as you need.
 
 # END of README
