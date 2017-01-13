@@ -28,18 +28,23 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 - Goto 'erbertandgerberts > mapsdelivery' and click on a DIFFERENT desired map file.
 - With the map open and visible, click the 'Raw' button. This will display the Json code.
 - Select All EXCEPT for the lines below and copy.
-
-    {
-      "type": "FeatureCollection",
-      "features": [
-
+```
+{
+  "type": "FeatureCollection",
+  "features": [
+```
 - Go back to GeoJson.io and in the right sidebar scroll to the bottom of the existing map code.
 - Replace the following code...
-        }
-      ]
+```
     }
+  ]
+}
+```
 - With this...
-        },
+```
+    },
+```
 - This should tell GeoJson that there are more than one 'feature' (area) on the map and should display all of them.
 - CONTINUE for as many maps as you need.
+
 # END of README
