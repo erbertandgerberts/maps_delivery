@@ -2599,8 +2599,8 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#555555",
-        "stroke-width": 2,
+        "stroke": "#022345",
+        "stroke-width": 3,
         "stroke-opacity": 1,
         "fill": "##3bb223",
         "fill-opacity": 0.5
