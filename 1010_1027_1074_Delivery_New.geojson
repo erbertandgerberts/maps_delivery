@@ -7,7 +7,7 @@
         "stroke": "#022345",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#99ff99",
+        "fill": "#77ffd8",
         "fill-opacity": 0.5
       },
       "geometry": {
@@ -432,7 +432,7 @@
         "stroke": "#022345",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#9e1536",
+        "fill": "#d81cbf",
         "fill-opacity": 0.5
       },
       "geometry": {
@@ -1501,7 +1501,7 @@
         "stroke": "#022345",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#ccff33",
+        "fill": "#f2d530",
         "fill-opacity": 0.3
       },
       "geometry": {
