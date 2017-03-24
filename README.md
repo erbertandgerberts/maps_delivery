@@ -48,7 +48,7 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 - PASTE: Finally, paste the Json code AFTER the '},' code that you had replaced above.
 - CONTINUE for as many maps as you need.
 
-### Converting Linstring to Polygon
+### Converting Linestring to Polygon
 - There are three main things to change to convert a 'Linestring' map to a 'Polygon' map.
 - 1: CHANGE 'Linestring' to 'Polygon' in the code below...
 ```
