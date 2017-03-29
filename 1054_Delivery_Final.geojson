@@ -5,6 +5,23 @@
       "type": "Feature",
       "properties": {},
       "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -93.09358,
+          44.944997
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "stroke": "#ff2600",
+        "stroke-width": 3,
+        "stroke-opacity": 1,
+        "fill": "#77ffd8",
+        "fill-opacity": 0.5
+      },
+      "geometry": {
         "type": "Polygon",
         "coordinates": [
           [
