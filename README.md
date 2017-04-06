@@ -78,4 +78,16 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 - 3: VERIFY that the end coordinates are EXACTLY the same as the beginning coordinates by copy/paste the beginning coordiantes.
 - That's it. If all three steps were completed correctly, the 'Linestring' should now display as a filled Polygon in GeoJson.
 
+### Adding Holes to Polygons
+- The first code element in a polygon represents the exterior ring. Any subsequent code elements represent interior rings (or holes).
+- For example, the following represents a square polygon with a square hole. The second code element (after the ',') is the hole.
+```
+{ "type": "Polygon",
+    "coordinates": [
+      [ [100.0, 0.0], [101.0, 0.0], [101.0, 1.0], [100.0, 1.0], [100.0, 0.0] ],
+      [ [100.2, 0.2], [100.8, 0.2], [100.8, 0.8], [100.2, 0.8], [100.2, 0.2] ]
+      ]
+   }
+```
+
 # END of README
