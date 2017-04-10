@@ -80,7 +80,15 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 
 ### Adding Holes to Polygons
 - The first code element in a polygon represents the exterior ring. Any subsequent code elements represent interior rings (or holes).
-- For example, the following represents a square polygon with a square hole. The second code element (after the ',') is the hole.
+- Each polygon code element begins with an enclosing '['. The second code element would start after closing ']' like this '],'.
+- The comma is what separates the first enclosing '[ ]' from the second. Like this...
+```
+"coordinates": [
+[ code element of coordinate pairs for the main polygon [1st coordinate pair], [2nd coordinate pair], [etc] ], <-closing bracket with comma
+[ new code element of coordinate pairs for 'hole' polygon ]
+] <-closing bracket for polygon coordinates
+```
+- The example below represents a square polygon with a square hole. The second code element (after the '[ ],') is the hole.
 ```
 { "type": "Polygon",
     "coordinates": [
@@ -89,5 +97,9 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
       ]
    }
 ```
+- 1) BEGIN by creating the main polygon.
+- 2) THEN create the hole polygon.
+- 3) Copy/Paste the hole polygon code element after the main polygon code element.
+- It can be tough to find where to insert the 'hole'. Look for the 'closing' bracket of the main polygon, add a comma and insert the hole polygon. 
 
 # END of README
