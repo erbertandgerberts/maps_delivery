@@ -97,9 +97,9 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
       ]
    }
 ```
-- 1) BEGIN by creating the main polygon.
-- 2) THEN create the hole polygon.
-- 3) Copy/Paste the hole polygon code element after the main polygon code element.
+1. BEGIN by creating the main polygon.
+2. THEN create the hole polygon.
+3. Copy/Paste the hole polygon code element after the main polygon code element.
 - It can be tough to find where to insert the 'hole'. Look for the 'closing' bracket of the main polygon, add a comma and insert the hole polygon. 
 
 # END of README
