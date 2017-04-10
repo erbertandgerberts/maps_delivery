@@ -84,7 +84,7 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 - The comma is what separates the first enclosing '[ ]' from the second. Like this...
 ```
 "coordinates": [
-[ code element of coordinate pairs for the main polygon [1st coordinate pair], [2nd coordinate pair], [etc] ], <-closing bracket with comma
+[ code element of coordinate pairs for the main polygon [1st coordinate pair], [2nd pair], [etc] ], <-closing bracket with comma
 [ new code element of coordinate pairs for 'hole' polygon ]
 ] <-closing bracket for polygon coordinates
 ```
