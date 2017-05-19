@@ -1,27 +1,49 @@
 # ReadMe: E&G Store Delivery Maps
 Information about creating and editing digital delivery maps for E&G stores.
+# Working in GeoJson.io
 ## Naming Map Files
 ### Map .geojson Filenames
 Map .geojson files can only be renamed in GitHub by editing them. To do this 'something/anything' has to change in the code or in the filename.
 ### Map Description
 This is actually the 'commit changes' note. This can ONLY be changed when editing the code and 'something/anything' changes.
-## GeoJson.io
-### Displaying Maps from GitHub
+
+## Editing Maps in GeoJson and Saving to GitHub
+**IMPORTANT TIP**
+The normal process of editing maps is...
+- Goto GeoJson.io and login with your GitHub credentials.
+- Goto Open > GitHub and use the arrows to find the map you're intested in and click on it.
+- - Note: there is no scrollbar in this popup. To get around that (if you don't have a MacBook with trackpad), is to select some text in the map list and then use the arrow keys to move down past the visible area.
+- Once the map is open, use the 'Edt Layers' tool to edit the polygon or marker.
+- When the edits are complete click menu > Save and enter the commit message. BUT WAIT!
+### GeoJson Edit Save Glitch
+There is a bug/glitch in GeoJson.io that when you menu > Save and enter your commit message, GeoJson will error out and the menus will become unresponsive. The only way to get the menus to work again is to refresh the window, which will ERASE all of your edits. Frustrating!
+
+To avoid this frustration, use the following procedure...
+- When the edits are complete do this FIRST.
+- Open the right 'code' sidebar.
+- Click anywhere in the code text, Select All and COPY.
+- Click menu > Save and enter the commit message. It will error out.
+- Refresh the page and open the right code sidebar.
+- Click anywhere in the code text, Select All and PASTE.
+- NOW go menu > Save and enter the commit message. It should be successful.
+- Done. With much less frustration.
+
+## Displaying Maps from GitHub
 - Goto GeoJson.io and signin with your GitHub account (if you aren't already signed in).
 - - You can tell if you're signed in because the upper right corner will show '[your username] | logout'.
 
-#### Method 1: Open/Save
+### Method 1: Open/Save
 - In GeoJson.io goto 'Open > GitHub > erbertandgerberts > mapsdelivery > master' and click the desired map.
 
-#### Method 2: Copy/Paste
+### Method 2: Copy/Paste
 - Goto GitHub.com and signin
 - SELECT: Goto 'erbertandgerberts > mapsdelivery' and click on the desired map file.
 - COPY: With the map open and visible, click the 'Raw' button. This will display the Json code. Select All and copy.
 - Go back to GeoJson.io and in the right sidebar 'select all' and paste.
 - The map will now show up, ready to edit.
 
-### Displaying MULTIPLE Maps Simultaneously from GitHub
-#### Method 1: Copy/Paste
+## Displaying MULTIPLE Maps Simultaneously from GitHub
+### Method 1: Copy/Paste
 - The only way known to do this so far is the 'copy/paste' method.
 - Follow the 'Method 2: Copy/Paste' instructions above.
 - Then...
@@ -48,7 +70,7 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 - PASTE: Finally, paste the Json code AFTER the '},' code that you had replaced above.
 - CONTINUE for as many maps as you need.
 
-### Converting Linestring to Polygon
+## Converting Linestring to Polygon
 - There are three main things to change to convert a 'Linestring' map to a 'Polygon' map.
 - 1: CHANGE 'Linestring' to 'Polygon' in the code below...
 ```
@@ -78,7 +100,7 @@ This is actually the 'commit changes' note. This can ONLY be changed when editin
 - 3: VERIFY that the end coordinates are EXACTLY the same as the beginning coordinates by copy/paste the beginning coordiantes.
 - That's it. If all three steps were completed correctly, the 'Linestring' should now display as a filled Polygon in GeoJson.
 
-### Adding Holes to Polygons
+## Adding Holes to Polygons
 - The first code element in a polygon represents the exterior ring. Any subsequent code elements represent interior rings (or holes).
 - Each polygon code element begins with an enclosing '['. The second code element would start after closing ']' like this '],'.
 - The comma is what separates the first enclosing '[ ]' from the second. Like this...
