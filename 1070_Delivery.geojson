@@ -3,12 +3,23 @@
   "features": [
     {
       "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.770581,
+          43.513605
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
-        "stroke": "#022345",
+        "stroke": "#009900",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#00ff33",
-        "fill-opacity": 0.3
+        "fill": "#33ffcc",
+        "fill-opacity": 0.25
       },
       "geometry": {
         "type": "Polygon",
