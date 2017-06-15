@@ -4,9 +4,8 @@ Information about creating and editing digital delivery maps for E&G stores.
 ## Map File Naming
 All maps need to be named with the following format.
 - [StoreID]\_Delivery.geojson
-- Example: 1010_Delivery.geojson
 
-Map files that are no longer usable should use either '\_old' or '\_bad' before the '.geojson'.
+Map files that are no longer usable should use either '\_old' or '\_bad' before the '.geojson'. If a Map File is intended for some other use (ie. showing a combination of stores), then an appropriate descriptive word should be added AFTER '\_Delivery' and before '.geojson'.
 
 ## Commit Titles
 Every creation and editing of a map requires a 'commit title'. This title is limited to 50 characters and shows up in the map file list. In order for these titles to provide consistent, useful information, the following format should be used.
