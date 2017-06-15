@@ -1,5 +1,15 @@
 # ReadMe: E&G Store Delivery Maps
 Information about creating and editing digital delivery maps for E&G stores.
+# Map Naming & Commit Titles
+## Map File Naming
+All maps need to be named with the following format.
+- [StoreID]\_Delivery.geojson
+- Example: 1010_Delivery.geojson
+Map files that are no longer usable should use either '\_old' or '\_bad' before the '.geojson'.
+## Commit Titles
+Every creation and editing of a map requires a 'commit title'. This title is limited to 50 characters and shows up in the map file list. In order for these titles to provide consistent, useful information, the following format should be used.
+- [StoreShortName]: short description of what is different about this 'commit' to the map.
+The StoreID is already included in the map filename, the store name is helpful for those who don't have the StoreID's memorized and information about what changed is also helpfu. Keep in mind the Commit Title's 50-character limit, so the 'what's changed' part might be pretty short. Note that in GitHub (as opposed to GeoJson.io) there is an ability to include a commit description with either no character limit or a very big limit.
 # Working in GeoJson.io
 ## ReNaming Map Files
 ### Map .geojson Filenames
