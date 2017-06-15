@@ -8,7 +8,7 @@ All maps need to be named with the following format.
 Map files that are no longer usable should use either '\_old' or '\_bad' before the '.geojson'. If a Map File is intended for some other use (ie. showing a combination of stores), then an appropriate descriptive word should be added AFTER '\_Delivery' and before '.geojson'.
 
 ## Commit Titles
-Every creation and editing of a map requires a 'commit title'. This title is limited to 50 characters and shows up in the map file list. In order for these titles to provide consistent, useful information, the following format should be used.
+Every creation and editing of a map requires a 'Commit Title'. This title is limited to 50 characters and shows up in the map file list. In order for these titles to provide consistent, useful information, the following format should be used.
 - [StoreShortName]: short description of what is different about this 'commit' to the map.
 
 _Reasoning: The StoreID is already included in the map filename, the store name is helpful for those who don't have the StoreID's memorized and information about what changed is also helpful. Keep in mind the Commit Title's 50-character limit, so the 'what's changed' part might be pretty short. Note that in GitHub (as opposed to GeoJson.io) there is an ability to include a commit description with either no character limit or a very big limit._
