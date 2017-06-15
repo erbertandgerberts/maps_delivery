@@ -15,11 +15,11 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#ff2600",
+        "stroke": "#006699",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#77ffd8",
-        "fill-opacity": 0.5
+        "fill": "#006699",
+        "fill-opacity": 0.25
       },
       "geometry": {
         "type": "Polygon",
