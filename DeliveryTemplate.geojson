@@ -73,10 +73,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#003366",
+        "stroke": "#336699",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#003366",
+        "fill": "#336699",
         "fill-opacity": 0.25
       },
       "geometry": {
