@@ -1616,6 +1616,28 @@
           ]
         ]
       }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.15778923034668,
+          39.85355429312432
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -86.15761756896973,
+          39.85052324380674
+        ]
+      }
     }
   ]
 }
