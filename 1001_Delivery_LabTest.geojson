@@ -3,6 +3,17 @@
   "features": [
     {
       "type": "Feature",
+      "properties": {},
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.453957,
+          44.749004
+        ]
+      }
+    },
+    {
+      "type": "Feature",
       "properties": {
         "stroke": "#006699",
         "stroke-width": 3,
