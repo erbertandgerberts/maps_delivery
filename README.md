@@ -26,7 +26,6 @@ _Reasoning: The StoreID is already included in the map filename, the store name 
 ```
 ### Store Marker
 ```
-"features": [
     {
       "type": "Feature",
       "properties": {
