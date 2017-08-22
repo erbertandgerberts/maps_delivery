@@ -24,6 +24,25 @@ _Reasoning: The StoreID is already included in the map filename, the store name 
         "fill-opacity": 0.25
       },
 ```
+### Store Marker
+```
+"features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "marker-color": "#006699",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -91.453957,
+          44.749004
+        ]
+      }
+    },
+```
 
 # Working in GeoJson.io
 ## ReNaming Map Files
