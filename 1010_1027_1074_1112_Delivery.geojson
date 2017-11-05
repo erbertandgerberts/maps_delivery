@@ -2410,7 +2410,13 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "stroke": "#022345",
+        "stroke-width": 3,
+        "stroke-opacity": 1,
+        "fill": "#6161be",
+        "fill-opacity": 0.5
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
