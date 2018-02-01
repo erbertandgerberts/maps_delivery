@@ -3,7 +3,11 @@
   "features": [
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#006699",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -14,7 +18,13 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "stroke": "#006699",
+        "stroke-width": 3,
+        "stroke-opacity": 1,
+        "fill": "#006699",
+        "fill-opacity": 0.25
+      },
       "geometry": {
         "type": "Polygon",
         "coordinates": [
