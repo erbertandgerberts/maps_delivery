@@ -18,7 +18,7 @@
         "stroke": "#006699",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#006699",
+        "fill": "#77ffd8",
         "fill-opacity": 0.25
       },
       "geometry": {
@@ -2110,7 +2110,7 @@
         "stroke": "#006699",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#006699",
+        "fill": "#d81c",
         "fill-opacity": 0.25
       },
       "geometry": {
@@ -3154,7 +3154,7 @@
         "stroke": "#006699",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#006699",
+        "fill": "#f2d",
         "fill-opacity": 0.25
       },
       "geometry": {
@@ -4772,7 +4772,7 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#1a1A1A",
+        "marker-color": "#1a1a1a",
         "marker-size": "medium",
         "marker-symbol": ""
       },
