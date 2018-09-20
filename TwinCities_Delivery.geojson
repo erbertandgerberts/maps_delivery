@@ -1328,7 +1328,7 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#006699",
+        "marker-color": "#f4eb42",
         "marker-size": "medium",
         "marker-symbol": ""
       },
@@ -1343,10 +1343,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#006699",
+        "stroke": "#f4eb42",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#006699",
+        "fill": "#f4eb42",
         "fill-opacity": 0.25
       },
       "geometry": {
@@ -3324,7 +3324,7 @@
     {
       "type": "Feature",
       "properties": {
-        "marker-color": "#006699",
+        "marker-color": "#41f4dc",
         "marker-size": "medium",
         "marker-symbol": ""
       },
@@ -3339,10 +3339,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#006699",
+        "stroke": "#41f4dc",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#006699",
+        "fill": "#41f4dc",
         "fill-opacity": 0.25
       },
       "geometry": {
@@ -3699,7 +3699,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#d041f4",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -3711,10 +3715,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#006699",
+        "stroke": "#d041f4",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#006699",
+        "fill": "#d041f4",
         "fill-opacity": 0.25
       },
       "geometry": {
@@ -3998,7 +4002,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#d041f4",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -4010,10 +4018,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#022345",
+        "stroke": "#d041f4",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#77ffd8",
+        "fill": "#d041f4",
         "fill-opacity": 0.3
       },
       "geometry": {
@@ -4046,7 +4054,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#006699",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -5846,7 +5858,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#a941f4",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -5858,10 +5874,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#006699",
+        "stroke": "#a941f4",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#006699",
+        "fill": "#a941f4",
         "fill-opacity": 0.25
       },
       "geometry": {
@@ -6274,7 +6290,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#006699",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -7014,7 +7034,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#f441a0",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -7026,10 +7050,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#006699",
+        "stroke": "#f441a0",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#006699",
+        "fill": "#f441a0",
         "fill-opacity": 0.25
       },
       "geometry": {
@@ -7638,7 +7662,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#61f441",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -7650,10 +7678,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#006699",
+        "stroke": "#61f441",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#006699",
+        "fill": "#61f441",
         "fill-opacity": 0.25
       },
       "geometry": {
@@ -8638,7 +8666,11 @@
     },
     {
       "type": "Feature",
-      "properties": {},
+      "properties": {
+        "marker-color": "#5e41f4",
+        "marker-size": "medium",
+        "marker-symbol": ""
+      },
       "geometry": {
         "type": "Point",
         "coordinates": [
@@ -8650,10 +8682,10 @@
     {
       "type": "Feature",
       "properties": {
-        "stroke": "#006699",
+        "stroke": "#5e41f4",
         "stroke-width": 3,
         "stroke-opacity": 1,
-        "fill": "#006699",
+        "fill": "#5e41f4",
         "fill-opacity": 0.25
       },
       "geometry": {
