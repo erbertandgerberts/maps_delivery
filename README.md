@@ -15,7 +15,7 @@ _Reasoning: The StoreID is already included in the map filename, the store name 
 
 ## Map Colors
 ### Color Codes
-- Blue (1st): #003366
+- Blue (1st): #006699 (#003366 is official E&G blue)
 - Red (2nd): #9d2235
 - Green (3rd): #b7bf10
 ### Main Delivery Area
