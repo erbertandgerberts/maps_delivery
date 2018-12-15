@@ -14,6 +14,10 @@ Every creation and editing of a map requires a 'Commit Title'. This title is lim
 _Reasoning: The StoreID is already included in the map filename, the store name is helpful for those who don't have the StoreID's memorized and information about what changed is also helpful. Keep in mind the Commit Title's 50-character limit, so the 'what's changed' part might be pretty short. Note that in GitHub (as opposed to GeoJson.io) there is an ability to include a commit description with either no character limit or a very big limit._
 
 ## Map Colors
+### Color Codes
+- Blue (1st): #003366
+- Red (2nd): #9d2235
+- Green (3rd): #b7bf10
 ### Main Delivery Area
 ```
 "properties": {
