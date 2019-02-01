@@ -1,6 +1,6 @@
 # ReadMe: E&G Store Delivery Maps
 Information about creating and editing digital delivery maps for E&G stores.
-# Map Naming & Commit Titles
+# Map Naming | Commit Titles | Comments | Colors
 ## Map File Naming
 All maps need to be named with the following format.
 - [StoreID]\_Delivery.geojson
@@ -12,6 +12,12 @@ Every creation and editing of a map requires a 'Commit Title'. This title is lim
 - [StoreShortName]: short description of what's changed with this 'commit' to the map. The 'what's changed' part is optional.
 
 _Reasoning: The StoreID is already included in the map filename, the store name is helpful for those who don't have the StoreID's memorized and information about what changed is also helpful. Keep in mind the Commit Title's 50-character limit, so the 'what's changed' part might be pretty short. Note that in GitHub (as opposed to GeoJson.io) there is an ability to include a commit description with either no character limit or a very big limit._
+
+## Comments
+In order to add comments to the code (inline) to allow for searching and identifying areas in the code more easily, use the following syntax. Be sure to only change what is inside the quotes around the "Enter any comment...".
+```
+"_comment": "Enter any comment text in here.",
+```
 
 ## Map Colors
 ### Color Codes
