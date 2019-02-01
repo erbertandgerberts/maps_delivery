@@ -18,6 +18,13 @@ In order to add comments to the code (inline) to allow for searching and identif
 ```
 "_comment": "Enter any comment text in here.",
 ```
+The comment should be inserted within a code group after the initial open bracket "{", like the example below...
+```
+{
+      "_comment": "Here is some comment text. Below is the rest of the GeoJson code.",
+      "type": "Feature",
+      "properties": {},
+```
 
 ## Map Colors
 ### Color Codes
